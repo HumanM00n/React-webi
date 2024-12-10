@@ -1,4 +1,4 @@
-import InputContainer from '../InputContainer/InputContainer';
+import InputContainer from '../inputContainer/inputContainer';
 
 const Login = () => {
 	return (
