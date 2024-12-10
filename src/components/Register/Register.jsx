@@ -80,6 +80,7 @@ const Register = () => {
 						name='firstName'
 					/>
 				</InputContainer>
+
 				<InputContainer>
 					<label htmlFor='birthdate'>Date de naissance</label>
 					<input
@@ -89,6 +90,7 @@ const Register = () => {
 						name='birthdate'
 					/>
 				</InputContainer>
+
 				<InputContainer>
 					<label htmlFor='email'>Email</label>
 					<input
@@ -98,6 +100,7 @@ const Register = () => {
 						name='email'
 					/>
 				</InputContainer>
+				
 				<InputContainer>
 					<label htmlFor='password'>Mot de passe</label>
 					<input
