@@ -2,11 +2,11 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage/HomePage';
-import AuthenticationPage from './pages/AuthenticationPage/AuthenticationPage';
+import HomePage from './components/pages/HomePage/HomePage';
+import AuthenticationPage from './components/pages/AuthenticationPage/AuthenticationPage';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import SearchMoviesPage from './pages/SearchMoviesPage/SearchMoviesPage';
+import SearchMoviesPage from './components/pages/SearchMoviesPage/SearchMoviesPages';
 
 createRoot(document.getElementById('root')).render(
 	<StrictMode>
