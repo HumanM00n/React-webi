@@ -1,0 +1,26 @@
+/* .containerLogin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ */
+ 
+.inputBloc {
+	width: 190px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+
+.btnSubmit {
+    width: 200px;
+    margin-top: 15px;
+}
+
+
+

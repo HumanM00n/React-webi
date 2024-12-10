@@ -2,11 +2,11 @@ import styles from './Register.module.css';
 
 const Register = () => {
 	return (
-		<div>
-			<form>
+		<div className={styles.registerContainer}>
+			<form className={styles.registerForm }>
 				<div className={styles.inputContainer}>
 					<label htmlFor='lastName'>Nom</label>
-					<input type='text' id='lastName' name='lastName' />
+					<input type='text' id='lastName' name='lastName' className='form-control'/>
 				</div>
 
 				<div className={styles.inputContainer}>
@@ -40,7 +40,7 @@ const Register = () => {
 					/>
 				</div>
 
-				<button type='submit'>S&apos;inscrire</button>
+				<button type='submit' color='primary'>S&apos;inscrire</button>
 			</form>
 		</div>
 	);
