@@ -1,30 +1,14 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Movie from './Movie/Movie';
+import SearchBar from './SearchBar/SearchBar.jsx';
 
 const MoviesSearch = () => {
 	const [movies, setMovies] = useState([]);
 
-	useEffect(() => {
-		async function getMovies() {
-			const response = await fetch(
-				'http://localhost:3000/query-movies/avengers'
-			);
 
-			const data = await response.json();
-
-			console.log(data.data.results);
-
-			setMovies(data.data.results);
-		}
-
-		getMovies();
-
-		return () => {
-			console.log('Mon composant APP est démonté');
-		};
-	}, []);
 	return (
 		<div>
+			<SearchBar setMovies={setMovies} />
 			{movies.map((movie) => {
 				return <Movie key={movie.id} movie={movie} />;
 			})}
