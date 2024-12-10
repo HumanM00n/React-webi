@@ -1,4 +1,4 @@
-import MoviesSearch from '../../components/MoviesSearch';
+import MoviesSearch from "../../MoviesSearch.jsx";
 
 const SearchMoviesPage = () => {
 	return (

@@ -1,4 +1,4 @@
-import Authentication from '../../components/Authentication/Autentication';
+import Authentication from "../../Authentication/Autentication.jsx";
 
 const AuthenticationPage = () => {
 	return (
